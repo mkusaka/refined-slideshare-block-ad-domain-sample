@@ -1,0 +1,1 @@
+# refined-slideshare-block-ad-domain-sample
