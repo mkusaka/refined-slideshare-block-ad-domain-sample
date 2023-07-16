@@ -1,0 +1,11 @@
+{
+  "name": "refined-slideshare-block-ad-domain-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mkusaka/refined-slideshare-block-ad-domain-sample.git",
+  "author": "mkusaka <hinoshita1992@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "package": "rm -f pacakge.zip && zip -r package.zip . -x '.git/**' './node_modules/**' '.idea/**' 'yarn.lock' 'package.json' '.gitignore'"
+  }
+}

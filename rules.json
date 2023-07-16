@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://web.prebidwrapper.com/scribd-evjB7CbRQD/slideshare-default/prebid-load.js",
+      "resourceTypes": ["script"]
+    }
+  }
+]
