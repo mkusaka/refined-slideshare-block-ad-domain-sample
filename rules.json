@@ -7,5 +7,25 @@
       "urlFilter": "*://web.prebidwrapper.com/scribd-evjB7CbRQD/slideshare-default/prebid-load.js",
       "resourceTypes": ["script"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://wa.slideshare.net/api/v1/events",
+      "resourceTypes": ["ping"],
+      "methods": ["POST"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://tattle.api.osano.com/*",
+      "resourceTypes": ["xmlhttprequest"],
+      "methods": ["POST"]
+    }
   }
 ]
